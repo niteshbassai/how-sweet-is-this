@@ -17,6 +17,11 @@ body {
     background-color: #fff8f0;
     color: #333;
     line-height: 1.6;
+
+    /* Keeps footer at bottom */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Header styling */
@@ -62,8 +67,10 @@ main {
     width: 90%;
     max-width: 1200px;
     margin: auto;
-}
 
+    /* Pushes footer down */
+    flex: 1;
+}
 /* General section styling */
 section {
     padding: 50px 20px;
