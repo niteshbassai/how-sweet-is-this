@@ -1,91 +1,312 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <!-- Required metadata -->
+    <!-- Required Metadata -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Skittles homepage - colorful candy, fun flavors, and sweet treats.">
+
+    <meta name="description" 
+          content="Discover the colorful world of Skittles candy. Explore flavors, fun facts, and sweet experiences.">
+
     <meta name="author" content="Your Name">
 
-    <!-- Page title -->
-    <title>How Sweet Is This - Skittles</title>
+    <title>How Sweet Is This | Skittles</title>
 
-    <!-- Link to external CSS -->
+    <!-- External CSS File -->
     <link rel="stylesheet" href="style.css">
 
-    <!-- Google Fonts (custom fonts) -->
+    <!-- Custom Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" 
+    rel="stylesheet">
+
 </head>
+
+
 <body>
-    <!-- Header section -->
+
+    <!-- Header and Navigation -->
     <header>
+
         <nav>
-            <h1>Skittles</h1>
+
+            <div class="logo">
+                <h1>Skittles</h1>
+            </div>
+
+
             <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#flavors">Flavors</a></li>
-                <li><a href="#media">Media</a></li>
-                <li><a href="#contact">Contact</a></li>
+
+                <li>
+                    <a href="#about">About</a>
+                </li>
+
+                <li>
+                    <a href="#flavors">Flavors</a>
+                </li>
+
+                <li>
+                    <a href="#gallery">Gallery</a>
+                </li>
+
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+
             </ul>
+
         </nav>
+
+
     </header>
 
-    <!-- Main content -->
+
+
+    <!-- Main Website Content -->
     <main>
-        <!-- About Section -->
+
+
+        <!-- Hero/About Section -->
         <section id="about">
-            <h2>About Skittles</h2>
-            <p>Skittles are colorful fruit-flavored candy that come in a variety of sweet and tangy flavors. They are loved worldwide for their fun taste and vibrant appearance.</p>
+
+
+            <img src="images/rainbow-banner.png" 
+            alt="Skittles rainbow candy banner">
+
+
+            <h2>Taste The Rainbow</h2>
+
+
+            <p>
+                Skittles are colorful fruit-flavored candies enjoyed by people 
+                around the world. Each candy delivers a burst of fruity flavor 
+                and a unique colorful experience.
+            </p>
+
+
+            <p>
+                Since their introduction, Skittles have become famous for their 
+                bright colors, fun advertisements, and the unforgettable slogan 
+                "Taste the Rainbow."
+            </p>
+
+
         </section>
 
-        <!-- Flavors Section -->
+
+
+        <!-- Flavor Section -->
         <section id="flavors">
-            <h2>Flavors</h2>
+
+
+            <h2>Our Favorite Flavors</h2>
+
+
             <ul>
+
                 <li>Strawberry</li>
+
                 <li>Orange</li>
+
                 <li>Lemon</li>
+
                 <li>Green Apple</li>
+
                 <li>Grape</li>
+
             </ul>
+
+
         </section>
+
+
+
+
+
+        <!-- Image Gallery Section -->
+        <section id="gallery">
+
+
+            <h2>Sweet Gallery</h2>
+
+
+
+            <div class="gallery-container">
+
+
+                <img src="images/skittles-bowl.png"
+                alt="Bowl filled with colorful Skittles candy">
+
+
+
+                <img src="images/skittles-assorted.png"
+                alt="Assorted Skittles candy package">
+
+
+
+            </div>
+
+
+        </section>
+
+
+
+
 
         <!-- Media Section -->
         <section id="media">
-            <h2>Media</h2>
-            <img src="images/skittles-bowl.jpg" alt="Bowl of Skittles">
-            <video controls width="320">
-                <source src="assets/skittles-ad.mp4" type="video/mp4">
+
+
+            <h2>Watch Skittles Experience</h2>
+            <video width="500" controls>
+                <source src="assets/skittles-video-thumbnail.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
+
+
+
+            <video controls width="500">
+
+
+                <source src="assets/skittles-ad.mp4" 
+                type="video/mp4">
+
+
+                Your browser does not support video playback.
+
+
+            </video>
+
+
         </section>
+
+
+
     </main>
 
-    <!-- Footer section -->
+
+
+
+
+    <!-- Footer Section -->
     <footer id="contact">
+
+
+        <!-- Company Logo -->
         <div class="footer-logo">
-            <img src="images/skittles-logo.png" alt="Skittles Logo">
+
+
+            <img src="images/skittles-logo.png"
+            alt="Skittles company logo">
+
+
         </div>
+
+
+
+
+
+        <!-- Company Information -->
         <div class="footer-info">
-            <p>&copy; 2026 Skittles. All rights reserved.</p>
-            <p>Email: info@skittles.com | Phone: +1-800-555-1234</p>
+
+
+            <h3>Skittles</h3>
+
+
+            <p>
+                Colorful fruit candy bringing sweetness and fun worldwide.
+            </p>
+
+
+            <p>
+                Email: info@skittles.com
+            </p>
+
+
+            <p>
+                Phone: +1 800 555 1234
+            </p>
+
+
+            <p>
+                &copy; 2026 Skittles. All rights reserved.
+            </p>
+
+
         </div>
+
+
+
+
+
+        <!-- Contact Form -->
         <div class="footer-form">
+
+
+            <h3>Contact Us</h3>
+
+
             <form>
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-                
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" required></textarea>
-                
-                <button type="submit">Send</button>
+
+
+                <label for="name">
+                    Name
+                </label>
+
+
+                <input 
+                type="text"
+                id="name"
+                name="name"
+                required>
+
+
+
+                <label for="email">
+                    Email
+                </label>
+
+
+                <input 
+                type="email"
+                id="email"
+                name="email"
+                required>
+
+
+
+                <label for="message">
+                    Message
+                </label>
+
+
+                <textarea 
+                id="message"
+                name="message"
+                required>
+                </textarea>
+
+
+
+                <button type="submit">
+                    Send
+                </button>
+
+
             </form>
+
+
         </div>
+
+
+
     </footer>
+
+
+
 </body>
+
 </html>
